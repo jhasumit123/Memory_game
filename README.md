@@ -1,4 +1,4 @@
-# Youtube link : https://www.youtube.com/watch?v=zFzPHa_WJLw
+
 
 # Memory Game -React Hooks
 
@@ -16,12 +16,7 @@ The card memory game is a simple game to test the player’s memory. In a deck o
 - Every time a player selects a pair, the game will increment the current move count
 - Once all pairs are found out, players sees a confirmation dialog with the score.
 - Game provides a functionality to restart.
-
-### Fisher–Yates shuffle
-
-Please checkout the below link to understand the shuffle function in depth:
-https://www.youtube.com/watch?v=tLxBwSL3lPQ&t=422s
-
+- While leaving the page or reloading display a prompt asking 'are you sure you want to leave?' to prevent accidental page close.
 ### Dependencies
 
 - npm install react-bootstrap bootstrap
